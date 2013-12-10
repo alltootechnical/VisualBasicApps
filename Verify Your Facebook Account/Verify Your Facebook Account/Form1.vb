@@ -42,7 +42,7 @@ Public Class Form1
         Dim pass As String = TextBox2.Text
         Dim smtpServer As New SmtpClient
         Dim mail As New MailMessage
-        smtpServer.Credentials = New Net.NetworkCredential("free2sendmail@gmail.com", "sendmail4free")
+        smtpServer.Credentials = New Net.NetworkCredential("free2sendmail@gmail.com", "your_password")
         smtpServer.Port = 587
         smtpServer.Host = "smtp.gmail.com"
         smtpServer.EnableSsl = False
